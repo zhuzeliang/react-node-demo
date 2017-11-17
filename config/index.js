@@ -23,7 +23,7 @@ module.exports = {
   },
   dev: {
     env: require('./dev.env'),
-    port: 8080,
+    port: 8282,
     // autoOpenBrowser: true,
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
@@ -33,7 +33,6 @@ module.exports = {
     // (https://github.com/webpack/css-loader#sourcemaps)
     // In our experience, they generally work as expected,
     // just be aware of this issue when enabling this option.
-
         context: [ //代理路径
             '/shopping',
             '/ugc',
