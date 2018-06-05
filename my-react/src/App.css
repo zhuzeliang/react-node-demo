@@ -1,0 +1,16 @@
+@import '~antd/dist/antd.css';
+
+.page-login{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background-color: #324057;
+}
+.login-form{
+  width: 400px;
+  margin:100px auto;
+  background: #fff;
+  padding:50px;
+}
